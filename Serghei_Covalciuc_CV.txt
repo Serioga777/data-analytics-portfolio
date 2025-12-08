@@ -1,0 +1,193 @@
+SERGHEI COVALCIUC
+Data Analytics Enthusiast | Business & Management Student
+
+Email: sergheicovalciuc0000@gmail.com
+Phone: 07511938036
+LinkedIn: linkedin.com/in/sergheicovalciuc93
+GitHub: github.com/Serioga777
+Portfolio: github.com/Serioga777/data-analytics-portfolio
+
+================================================================================
+PROFESSIONAL SUMMARY
+================================================================================
+
+Business and Management student at Bath Spa University with a strong passion 
+for data analytics and business intelligence. Skilled in Excel, SQL, and Python 
+with hands-on experience analyzing data to derive actionable business insights. 
+Proven ability to translate complex data into clear recommendations through 
+self-directed learning and practical portfolio projects. Seeking entry-level 
+data analyst opportunities to apply analytical skills and contribute to 
+data-driven decision making.
+
+================================================================================
+EDUCATION
+================================================================================
+
+Bachelor's Degree in Business and Management
+Bath Spa University | Feb 2024 - Sept 2028
+
+Relevant Coursework:
+• Business Analytics & Data-Driven Decision Making
+• Marketing Research & Consumer Analytics
+• Operations Management & Process Optimization
+• Strategic Planning & Business Intelligence
+
+================================================================================
+TECHNICAL SKILLS
+================================================================================
+
+Data Analysis & Visualization:
+• Microsoft Excel (Advanced): PivotTables, VLOOKUP, Charts, Dashboards
+• SQL: Database design, complex queries, joins, aggregations
+• Python: pandas, data cleaning, analysis, basic visualization
+• Data Visualization: Creating clear charts and dashboards
+
+Business Intelligence:
+• Customer segmentation and behavior analysis
+• Sales performance tracking and forecasting
+• KPI development and monitoring
+• ROI analysis and optimization
+
+Technical Proficiency:
+• Database Management (SQLite, MySQL)
+• Version Control (Git, GitHub)
+• Web Development (HTML, CSS, JavaScript)
+• Problem-solving and analytical thinking
+
+================================================================================
+PROJECTS
+================================================================================
+
+Excel Sales Performance Dashboard
+• Analyzed €153,947 in sales data across 50 transactions to identify revenue 
+  drivers and growth opportunities
+• Created interactive PivotTable dashboard revealing Laptops generate 46.7% 
+  of total revenue (€71,999)
+• Identified North region as top performer with €59,878 revenue and discovered 
+  15% month-over-month growth trend
+• Developed actionable recommendations for product mix and regional strategy 
+  optimization
+Skills: Excel, PivotTables, Data Visualization, Sales Analysis
+
+SQL Customer Behavior Analysis
+• Designed and implemented 4-table relational database (customers, orders, 
+  products, order_items)
+• Wrote 13 SQL queries ranging from basic aggregations to advanced customer 
+  lifetime value calculations
+• Discovered Premium segment customers (40% of base) generate 68% of revenue, 
+  with average CLV of €1,366 vs €388 for Standard
+• Calculated 30% repeat customer rate and 6.7% cancellation rate to inform 
+  retention strategies
+Skills: SQL, Database Design, Customer Analytics, Business Intelligence
+
+Python Website Traffic Analysis
+• Cleaned and analyzed website traffic data from 50+ landing pages with 
+  15,654 total visitors using pandas
+• Identified key conversion factors: Organic traffic delivers 95% better 
+  conversion than Social (9.01% vs 4.62%)
+• Tracked conversion rate improvement from 5.32% to 9.64% over 5-week period
+• Generated data-driven recommendations for digital marketing optimization, 
+  including focus on Desktop users (9.01% conversion vs 5.89% mobile)
+Skills: Python, pandas, Data Cleaning, Trend Analysis, Digital Analytics
+
+================================================================================
+EXPERIENCE
+================================================================================
+
+Freelance Web Developer | Self-Employed
+2024 - Present | Remote
+
+• Built 20+ websites including portfolios, landing pages, and business sites 
+  for clients across various industries
+• Analyzed website traffic data to identify key factors influencing conversion 
+  rates, achieving performance improvements up to 80%
+• Implemented data-driven design decisions based on user behavior analytics 
+  and A/B testing results
+• Optimized website performance metrics including bounce rate reduction and 
+  conversion rate improvement
+• Managed client relationships and delivered projects on time while maintaining 
+  quality standards
+
+Skills Applied: HTML, CSS, JavaScript, Data Analysis, Client Communication
+
+================================================================================
+ADDITIONAL EXPERIENCE
+================================================================================
+
+Self-Directed Learning in Data Analytics | 2024 - Present
+• Completed comprehensive online training in Excel, SQL, and Python through 
+  platforms like freeCodeCamp, Udemy, and documentation
+• Built portfolio of 3 complete data analytics projects demonstrating practical 
+  skills
+• Developed strong self-learning abilities and technical problem-solving skills
+• Regularly practice data analysis techniques and stay current with industry 
+  best practices
+
+Self-Directed Web Development Training | 2024 - Present
+• Completed comprehensive self-study in HTML, CSS, JavaScript through 
+  freeCodeCamp, Udemy, and YouTube
+• Built 20+ websites applying learned concepts to real-world projects
+• Demonstrates self-motivation, continuous learning, and ability to acquire 
+  technical skills independently
+
+================================================================================
+CERTIFICATIONS
+================================================================================
+
+[Add certifications as you earn them]
+
+Recommended certifications to pursue:
+• Google Data Analytics Professional Certificate (Coursera)
+• Microsoft Excel Certification
+• SQL for Data Science (Coursera/DataCamp)
+• Python for Data Science (DataCamp)
+
+================================================================================
+KEY COMPETENCIES
+================================================================================
+
+Analytical Skills:
+• Strong problem-solving and critical thinking abilities
+• Data-driven decision making and strategic planning
+• Statistical analysis and trend identification
+• Performance metrics and KPI tracking
+
+Business Acumen:
+• Understanding of business operations and strategy
+• Customer behavior and market analysis
+• Revenue optimization and cost management
+• Clear communication of technical findings to business stakeholders
+
+Personal Attributes:
+• Self-motivated and continuous learner
+• Detail-oriented with strong organizational skills
+• Excellent time management and ability to meet deadlines
+• Adaptable and quick to learn new technologies
+• Strong written and verbal communication skills
+
+================================================================================
+LANGUAGES
+================================================================================
+
+English: Fluent
+Romanian: Native
+Russian: Fluent
+
+================================================================================
+PORTFOLIO
+================================================================================
+
+View my complete data analytics portfolio:
+https://github.com/Serioga777/data-analytics-portfolio
+
+Projects include:
+• Excel Sales Dashboard with €153K analysis
+• SQL Customer Database with 13 analytical queries
+• Python Website Traffic Analysis with 15K+ visitors
+• Complete documentation and reproducible analysis
+
+================================================================================
+
+REFERENCES AVAILABLE UPON REQUEST
+
+Last Updated: December 2024

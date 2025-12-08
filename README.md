@@ -1,6 +1,6 @@
 # Data Analytics Portfolio
 
-**Author**: [Your Name]  
+**Author**: Serghei Covalciuc  
 **Education**: Business and Management, Bath Spa University (Feb 2024 - Sept 2028)  
 **Focus**: Data Analytics | Business Intelligence | Data-Driven Decision Making
 
@@ -149,9 +149,10 @@ I'm continuously expanding this portfolio with new projects:
 
 ## 📞 Contact & Links
 
-**GitHub**: [Your GitHub Profile]  
-**LinkedIn**: [Your LinkedIn Profile]  
-**Email**: [Your Email]
+**GitHub**: [github.com/Serioga777](https://github.com/Serioga777)  
+**LinkedIn**: [linkedin.com/in/sergheicovalciuc93](https://linkedin.com/in/sergheicovalciuc93)  
+**Email**: sergheicovalciuc0000@gmail.com  
+**Phone**: 07511938036
 
 ---
 
