@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Serghei Covalciuc - Data Analytics Portfolio. Business & Management student skilled in Excel, SQL, and Python. View my data analytics projects.">
+    <meta name="keywords" content="data analytics, portfolio, Excel, SQL, Python, business intelligence, Serghei Covalciuc">
+    <meta name="author" content="Serghei Covalciuc">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Serghei Covalciuc - Data Analytics Portfolio">
+    <meta property="og:description" content="Business & Management student passionate about data analytics. Skilled in Excel, SQL, and Python.">
+    <meta property="og:url" content="https://serioga777.github.io/portfolio-website">
+    
+    <title>Serghei Covalciuc | Data Analytics Portfolio</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+        :root {
+            --navy: #1e3a8a;
+            --sky: #0ea5e9;
+            --emerald: #10b981;
+            --purple: #8b5cf6;
+            --orange: #f59e0b;
+        }
+        
+        * {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, var(--sky), var(--purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .glass {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+        
+        .typing-cursor {
+            animation: blink 1s infinite;
+        }
+        
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+        
+        .scroll-indicator {
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(10px); }
+        }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: var(--sky);
+            border-radius: 5px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--purple);
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-white">
+    
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 glass">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="#home" class="text-2xl font-bold gradient-text">SC</a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="hover:text-sky-400 transition">Home</a>
+                    <a href="#about" class="hover:text-sky-400 transition">About</a>
+                    <a href="#projects" class="hover:text-sky-400 transition">Projects</a>
+                    <a href="#skills" class="hover:text-sky-400 transition">Skills</a>
+                    <a href="#contact" class="hover:text-sky-400 transition">Contact</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-white focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-slate-800">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="block px-3 py-2 hover:bg-slate-700 rounded">Home</a>
+                <a href="#about" class="block px-3 py-2 hover:bg-slate-700 rounded">About</a>
+                <a href="#projects" class="block px-3 py-2 hover:bg-slate-700 rounded">Projects</a>
+                <a href="#skills" class="block px-3 py-2 hover:bg-slate-700 rounded">Skills</a>
+                <a href="#contact" class="block px-3 py-2 hover:bg-slate-700 rounded">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden">
+        <div class="absolute inset-0 gradient-bg opacity-10"></div>
+        <div class="max-w-4xl mx-auto px-4 text-center z-10" data-aos="fade-up">
+            <h1 class="text-5xl md:text-7xl font-bold mb-4">
+                Hi, I'm <span class="gradient-text">Serghei Covalciuc</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-4">Data Analytics Enthusiast</p>
+            <p class="text-lg text-gray-400 mb-8">Business & Management Student at Bath Spa University</p>
+            
+            <!-- Typing Animation -->
+            <div class="text-xl md:text-2xl text-sky-400 mb-12 h-8">
+                <span id="typed-text"></span><span class="typing-cursor">|</span>
+            </div>
+            
+            <!-- CTA Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#projects" class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full transition transform hover:scale-105">
+                    <i class="fas fa-briefcase mr-2"></i>View Portfolio
+                </a>
+                <a href="https://github.com/Serioga777/data-analytics-portfolio/blob/main/Serghei_Covalciuc_CV.txt" target="_blank" class="bg-purple-500 hover:bg-purple-600 text-white font-bold py-3 px-8 rounded-full transition transform hover:scale-105">
+                    <i class="fas fa-download mr-2"></i>Download CV
+                </a>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 scroll-indicator">
+                <i class="fas fa-chevron-down text-3xl text-sky-400"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-20 bg-slate-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div data-aos="fade-up" data-aos-delay="0">
+                    <div class="text-4xl md:text-5xl font-bold text-sky-400 mb-2">
+                        <span class="counter" data-target="3">0</span>+
+                    </div>
+                    <p class="text-gray-400">Projects Completed</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-4xl md:text-5xl font-bold text-emerald-400 mb-2">
+                        €<span class="counter" data-target="153">0</span>K
+                    </div>
+                    <p class="text-gray-400">Data Analyzed</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-4xl md:text-5xl font-bold text-purple-400 mb-2">
+                        <span class="counter" data-target="15">0</span>K+
+                    </div>
+                    <p class="text-gray-400">Visitors Analyzed</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-4xl md:text-5xl font-bold text-orange-400 mb-2">
+                        <span class="counter" data-target="1675">0</span>
+                    </div>
+                    <p class="text-gray-400">Lines of Code</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-slate-900">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 gradient-text" data-aos="fade-up">About Me</h2>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-right">
+                    <div class="bg-gradient-to-br from-sky-500 to-purple-600 p-1 rounded-2xl">
+                        <div class="bg-slate-800 p-8 rounded-2xl">
+                            <p class="text-lg text-gray-300 leading-relaxed mb-6">
+                                I'm a Business and Management student at Bath Spa University with a strong passion for 
+                                <span class="text-sky-400 font-semibold">data analytics</span> and 
+                                <span class="text-emerald-400 font-semibold">business intelligence</span>.
+                            </p>
+                            <p class="text-lg text-gray-300 leading-relaxed mb-6">
+                                I specialize in transforming complex data into actionable insights using 
+                                <span class="text-purple-400 font-semibold">Excel</span>, 
+                                <span class="text-sky-400 font-semibold">SQL</span>, and 
+                                <span class="text-emerald-400 font-semibold">Python</span>. 
+                                My approach combines technical proficiency with business thinking to deliver practical recommendations.
+                            </p>
+                            <p class="text-lg text-gray-300 leading-relaxed">
+                                When I'm not analyzing data, I build websites and continuously expand my technical skill set through 
+                                self-directed learning.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div data-aos="fade-left">
+                    <!-- Contact Info -->
+                    <div class="space-y-4 mb-8">
+                        <a href="mailto:sergheicovalciuc0000@gmail.com" class="flex items-center space-x-3 text-gray-300 hover:text-sky-400 transition">
+                            <i class="fas fa-envelope text-sky-400 text-xl w-8"></i>
+                            <span>sergheicovalciuc0000@gmail.com</span>
+                        </a>
+                        <a href="tel:07511938036" class="flex items-center space-x-3 text-gray-300 hover:text-emerald-400 transition">
+                            <i class="fas fa-phone text-emerald-400 text-xl w-8"></i>
+                            <span>07511938036</span>
+                        </a>
+                        <a href="https://linkedin.com/in/sergheicovalciuc93" target="_blank" class="flex items-center space-x-3 text-gray-300 hover:text-purple-400 transition">
+                            <i class="fab fa-linkedin text-purple-400 text-xl w-8"></i>
+                            <span>sergheicovalciuc93</span>
+                        </a>
+                        <a href="https://github.com/Serioga777" target="_blank" class="flex items-center space-x-3 text-gray-300 hover:text-orange-400 transition">
+                            <i class="fab fa-github text-orange-400 text-xl w-8"></i>
+                            <span>Serioga777</span>
+                        </a>
+                    </div>
+                    
+                    <!-- Skills Progress Bars -->
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-300">Microsoft Excel</span>
+                                <span class="text-sky-400">90%</span>
+                            </div>
+                            <div class="w-full bg-slate-700 rounded-full h-3">
+                                <div class="bg-gradient-to-r from-sky-400 to-sky-600 h-3 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-300">SQL</span>
+                                <span class="text-emerald-400">85%</span>
+                            </div>
+                            <div class="w-full bg-slate-700 rounded-full h-3">
+                                <div class="bg-gradient-to-r from-emerald-400 to-emerald-600 h-3 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-300">Python (pandas)</span>
+                                <span class="text-purple-400">80%</span>
+                            </div>
+                            <div class="w-full bg-slate-700 rounded-full h-3">
+                                <div class="bg-gradient-to-r from-purple-400 to-purple-600 h-3 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-300">Data Visualization</span>
+                                <span class="text-orange-400">85%</span>
+                            </div>
+                            <div class="w-full bg-slate-700 rounded-full h-3">
+                                <div class="bg-gradient-to-r from-orange-400 to-orange-600 h-3 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-slate-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 gradient-text" data-aos="fade-up">My Projects</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Project 1: Excel -->
+                <div class="bg-slate-900 rounded-2xl overflow-hidden card-hover" data-aos="fade-up" data-aos-delay="0">
+                    <div class="bg-gradient-to-br from-sky-500 to-blue-600 p-8 text-center">
+                        <i class="fas fa-file-excel text-6xl mb-4"></i>
+                        <h3 class="text-2xl font-bold">Excel Sales Dashboard</h3>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-300 mb-4">
+                            Analyzed €153K in sales data across 50 transactions to identify revenue drivers and growth opportunities.
+                        </p>
+                        <ul class="text-sm text-gray-400 space-y-2 mb-6">
+                            <li><i class="fas fa-check text-emerald-400 mr-2"></i>PivotTable dashboards</li>
+                            <li><i class="fas fa-check text-emerald-400 mr-2"></i>46.7% revenue from Laptops</li>
+                            <li><i class="fas fa-check text-emerald-400 mr-2"></i>15% month-over-month growth</li>
+                        </ul>
+                        <a href="https://github.com/Serioga777/data-analytics-portfolio/tree/main/01_excel_sales_dashboard" target="_blank" class="block w-full bg-sky-500 hover:bg-sky-600 text-white text-center py-3 rounded-lg transition font-semibold">
+                            View Project <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 2: SQL -->
+                <div class="bg-slate-900 rounded-2xl overflow-hidden card-hover" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-gradient-to-br from-emerald-500 to-green-600 p-8 text-center">
+                        <i class="fas fa-database text-6xl mb-4"></i>
+                        <h3 class="text-2xl font-bold">SQL Customer Analysis</h3>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-300 mb-4">
+                            Designed 4-table relational database and wrote 13 SQL queries for customer behavior insights.
+                        </p>
+                        <ul class="text-sm text-gray-400 space-y-2 mb-6">
+                            <li><i class="fas fa-check text-sky-400 mr-2"></i>4-table database design</li>
+                            <li><i class="fas fa-check text-sky-400 mr-2"></i>Premium = 68% revenue</li>
+                            <li><i class="fas fa-check text-sky-400 mr-2"></i>13 analytical queries</li>
+                        </ul>
+                        <a href="https://github.com/Serioga777/data-analytics-portfolio/tree/main/02_sql_customer_analysis" target="_blank" class="block w-full bg-emerald-500 hover:bg-emerald-600 text-white text-center py-3 rounded-lg transition font-semibold">
+                            View Project <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 3: Python -->
+                <div class="bg-slate-900 rounded-2xl overflow-hidden card-hover" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-gradient-to-br from-purple-500 to-pink-600 p-8 text-center">
+                        <i class="fab fa-python text-6xl mb-4"></i>
+                        <h3 class="text-2xl font-bold">Python Traffic Analysis</h3>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-300 mb-4">
+                            Analyzed 50+ landing pages with 15K+ visitors using pandas to identify conversion factors.
+                        </p>
+                        <ul class="text-sm text-gray-400 space-y-2 mb-6">
+                            <li><i class="fas fa-check text-orange-400 mr-2"></i>pandas data cleaning</li>
+                            <li><i class="fas fa-check text-orange-400 mr-2"></i>Organic: 95% better conversion</li>
+                            <li><i class="fas fa-check text-orange-400 mr-2"></i>5.32% → 9.64% improvement</li>
+                        </ul>
+                        <a href="https://github.com/Serioga777/data-analytics-portfolio/tree/main/03_python_data_cleaning" target="_blank" class="block w-full bg-purple-500 hover:bg-purple-600 text-white text-center py-3 rounded-lg transition font-semibold">
+                            View Project <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- GitHub Portfolio Link -->
+            <div class="text-center mt-12" data-aos="fade-up">
+                <a href="https://github.com/Serioga777/data-analytics-portfolio" target="_blank" class="inline-block bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-4 px-8 rounded-full transition transform hover:scale-105">
+                    <i class="fab fa-github mr-2"></i>View Full Portfolio on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-slate-900">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 gradient-text" data-aos="fade-up">Skills & Tools</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Data Analysis -->
+                <div data-aos="fade-up" data-aos-delay="0">
+                    <h3 class="text-xl font-bold mb-6 text-sky-400 flex items-center">
+                        <i class="fas fa-chart-line mr-2"></i>Data Analysis
+                    </h3>
+                    <div class="space-y-3">
+                        <div class="bg-slate-800 p-3 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fas fa-file-excel text-emerald-400 mr-2"></i>Microsoft Excel
+                        </div>
+                        <div class="bg-slate-800 p-3 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fas fa-database text-sky-400 mr-2"></i>SQL
+                        </div>
+                        <div class="bg-slate-800 p-3 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fab fa-python text-purple-400 mr-2"></i>Python (pandas)
+                        </div>
+                        <div class="bg-slate-800 p-3 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fas fa-chart-bar text-orange-400 mr-2"></i>Data Visualization
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Business Intelligence -->
+                <div data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-xl font-bold mb-6 text-emerald-400 flex items-center">
+                        <i class="fas fa-briefcase mr-2"></i>Business Intelligence
+                    </h3>
+                    <div class="space-y-3">
+                        <div class="bg-slate-800 p-3 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fas fa-bullseye text-sky-400 mr-2"></i>KPI Tracking
+                        </div>
+                        <div class="bg-slate-800 p-3 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fas fa-tachometer-alt text-emerald-400 mr-2"></i>Dashboards
+                        </div>
+                        <div class="bg-slate-800 p-3 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fas fa-file-alt text-purple-400 mr-2"></i>Reporting
+                        </div>
+                        <div class="bg-slate-800 p-3 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fas fa-users text-orange-400 mr-2"></i>Customer Analytics
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Web Development -->
+                <div data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-xl font-bold mb-6 text-purple-400 flex items-center">
+                        <i class="fas fa-code mr-2"></i>Web Development
+                    </h3>
+                    <div class="space-y-3">
+                        <div class="bg-slate-800 p-3 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fab fa-html5 text-orange-400 mr-2"></i>HTML5
+                        </div>
+                        <div class="bg-slate-800 p-3 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fab fa-css3-alt text-sky-400 mr-2"></i>CSS3
+                        </div>
+                        <div class="bg-slate-800 p-3 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fab fa-js text-yellow-400 mr-2"></i>JavaScript
+                        </div>
+                        <div class="bg-slate-800 p-3 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fas fa-mobile-alt text-emerald-400 mr-2"></i>Responsive Design
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools & Platforms -->
+                <div data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="text-xl font-bold mb-6 text-orange-400 flex items-center">
+                        <i class="fas fa-tools mr-2"></i>Tools & Platforms
+                    </h3>
+                    <div class="space-y-3">
+                        <div class="bg-slate-800 p-3 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fab fa-git-alt text-orange-400 mr-2"></i>Git
+                        </div>
+                        <div class="bg-slate-800 p-3 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fab fa-github text-purple-400 mr-2"></i>GitHub
+                        </div>
+                        <div class="bg-slate-800 p-3 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fas fa-code text-sky-400 mr-2"></i>VS Code
+                        </div>
+                        <div class="bg-slate-800 p-3 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fas fa-database text-emerald-400 mr-2"></i>MySQL/SQLite
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-slate-800">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 gradient-text" data-aos="fade-up">Get In Touch</h2>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <div data-aos="fade-right">
+                    <form id="contact-form" class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium mb-2">Name</label>
+                            <input type="text" id="name" required class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-lg focus:outline-none focus:border-sky-400 transition">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium mb-2">Email</label>
+                            <input type="email" id="email" required class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-lg focus:outline-none focus:border-sky-400 transition">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium mb-2">Message</label>
+                            <textarea id="message" rows="5" required class="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-lg focus:outline-none focus:border-sky-400 transition"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-gradient-to-r from-sky-500 to-purple-500 hover:from-sky-600 hover:to-purple-600 text-white font-bold py-3 rounded-lg transition transform hover:scale-105">
+                            <i class="fas fa-paper-plane mr-2"></i>Send Message
+                        </button>
+                    </form>
+                    <div id="form-message" class="mt-4 text-center hidden"></div>
+                </div>
+                
+                <!-- Contact Info -->
+                <div data-aos="fade-left">
+                    <h3 class="text-2xl font-bold mb-6">Or reach me directly:</h3>
+                    <div class="space-y-6">
+                        <a href="mailto:sergheicovalciuc0000@gmail.com" class="flex items-start space-x-4 p-4 bg-slate-900 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fas fa-envelope text-sky-400 text-2xl mt-1"></i>
+                            <div>
+                                <p class="font-semibold">Email</p>
+                                <p class="text-gray-400">sergheicovalciuc0000@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="tel:07511938036" class="flex items-start space-x-4 p-4 bg-slate-900 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fas fa-phone text-emerald-400 text-2xl mt-1"></i>
+                            <div>
+                                <p class="font-semibold">Phone</p>
+                                <p class="text-gray-400">07511938036</p>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/sergheicovalciuc93" target="_blank" class="flex items-start space-x-4 p-4 bg-slate-900 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fab fa-linkedin text-purple-400 text-2xl mt-1"></i>
+                            <div>
+                                <p class="font-semibold">LinkedIn</p>
+                                <p class="text-gray-400">sergheicovalciuc93</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/Serioga777" target="_blank" class="flex items-start space-x-4 p-4 bg-slate-900 rounded-lg hover:bg-slate-700 transition">
+                            <i class="fab fa-github text-orange-400 text-2xl mt-1"></i>
+                            <div>
+                                <p class="font-semibold">GitHub</p>
+                                <p class="text-gray-400">Serioga777</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 py-8 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">
+                    © 2024 Serghei Covalciuc. All rights reserved.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="https://linkedin.com/in/sergheicovalciuc93" target="_blank" class="text-gray-400 hover:text-purple-400 transition">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+                    <a href="https://github.com/Serioga777" target="_blank" class="text-gray-400 hover:text-orange-400 transition">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+                    <a href="mailto:sergheicovalciuc0000@gmail.com" class="text-gray-400 hover:text-sky-400 transition">
+                        <i class="fas fa-envelope text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="text-center text-gray-500 text-sm mt-4">
+                Made with <i class="fas fa-heart text-red-500"></i> using HTML, CSS, JavaScript & Tailwind CSS
+            </p>
+        </div>
+    </footer>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
