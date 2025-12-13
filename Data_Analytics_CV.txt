@@ -1,0 +1,162 @@
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                            [YOUR FULL NAME]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+        Data Analytics Enthusiast | Business & Management Student
+        
+📧 your.email@example.com | 📱 +44 XXXX XXX XXX | 🌐 LinkedIn: /in/yourname
+📍 Bath, United Kingdom | 💼 GitHub: github.com/yourname
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+PROFESSIONAL SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Motivated Business and Management student at Bath Spa University with strong 
+analytical mindset and proven self-learning abilities. Currently developing 
+data analytics skills through hands-on projects and online learning. 
+Experienced in translating complex information into actionable insights 
+through web development projects. Proficient in leveraging modern tools and 
+technologies to solve business problems. Seeking entry-level data analytics 
+opportunities to apply analytical skills and contribute to data-driven 
+decision making.
+
+
+EDUCATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Bachelor of Science (BSc) - Business and Management
+Bath Spa University, Bath, United Kingdom
+February 2024 - September 2028 (Expected)
+
+Relevant Modules:
+• Business Analytics & Decision Making
+• Quantitative Methods for Business
+• Strategic Management
+• Financial Analysis
+• Operations & Project Management
+
+Key Achievements:
+• Developing strong foundation in business analytics and statistical methods
+• Applying data-driven approaches to business problem-solving
+• Active participant in university data analytics workshops
+
+
+TECHNICAL SKILLS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Data Analytics & Tools:
+• Microsoft Excel (Advanced formulas, PivotTables, Data Analysis)
+• SQL (Database querying and data manipulation)
+• Python (pandas, NumPy, matplotlib - learning)
+• Power BI / Tableau (Data visualization - learning)
+• Google Analytics (Web analytics)
+• Statistical Analysis (Descriptive & inferential statistics)
+
+Programming & Web Technologies:
+• HTML5, CSS3, JavaScript
+• Responsive Web Design
+• Version Control (Git, GitHub)
+• API Integration
+
+AI & Productivity Tools:
+• ChatGPT & Claude (Data analysis assistance, automation)
+• Microsoft Office Suite (Word, Excel, PowerPoint)
+• Project Management Tools (Trello, Asana)
+
+Soft Skills:
+• Problem-Solving & Critical Thinking
+• Data-Driven Decision Making
+• Attention to Detail
+• Client Communication
+• Self-Learning & Adaptability
+• Time Management
+
+
+RELEVANT EXPERIENCE & PROJECTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Freelance Web Developer (Self-Employed)
+Fiverr Platform | 2024 - Present
+• Analyze client requirements and translate them into data-informed design 
+  decisions
+• Create responsive landing pages using HTML, CSS, and JavaScript, applying 
+  analytical thinking to optimize user conversion rates
+• Utilize Google Analytics to track website performance metrics and provide 
+  data-driven recommendations to clients
+• Manage multiple projects simultaneously, demonstrating strong organizational 
+  and time management skills
+• Achieve 100% client satisfaction through clear communication and 
+  attention to detail
+
+Key Achievement: Built 20+ websites, applying A/B testing principles to 
+improve conversion rates by analyzing user behavior data
+
+
+Data Analytics Learning Projects (Self-Directed)
+2024 - Present
+• Developed Python scripts for data cleaning and analysis using pandas and 
+  NumPy libraries
+• Created interactive dashboards visualizing business metrics and KPIs
+• Conducted exploratory data analysis (EDA) on real-world datasets to 
+  identify trends and patterns
+• Built automated data collection workflows using APIs and web scraping
+• Completed online courses in SQL, Excel, and statistical analysis
+
+Project Highlight: Analyzed website traffic data from 50+ landing pages to 
+identify key factors influencing conversion rates, presenting findings through 
+visualizations
+
+
+Business Process Optimization Research
+Personal Project | 2024
+• Researched income opportunities in tech sector using data analysis techniques
+• Analyzed market trends, competition levels, and profit margins across 
+  different business models
+• Created detailed reports with actionable insights and strategic recommendations
+• Demonstrated ability to gather, analyze, and present business intelligence
+
+Result: Developed comprehensive 30-day action plan based on data-driven 
+market analysis
+
+
+CERTIFICATIONS & ONLINE LEARNING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 Completed / In Progress:
+• freeCodeCamp - Responsive Web Design (Completed)
+• Udemy - Data Analysis with Python (In Progress)
+• Coursera - SQL for Data Science (In Progress)
+• Google Analytics Individual Qualification (Planned)
+• Microsoft Excel - Advanced Data Analysis (Planned)
+
+🎯 Currently Learning:
+• Python for Data Analysis (pandas, NumPy, matplotlib)
+• SQL for database management and querying
+• Power BI for business intelligence and visualization
+• Statistical methods and hypothesis testing
+
+
+ADDITIONAL INFORMATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Languages:
+• English - Fluent
+• [Add other languages if applicable]
+
+Interests:
+• Data Visualization & Storytelling
+• Business Intelligence & Analytics
+• Automation & Process Improvement
+• Market Research & Consumer Behavior
+• Technology & AI Applications in Business
+
+Availability:
+• Available for part-time internships and placement opportunities
+• Flexible schedule to accommodate work alongside studies
+• Open to remote work opportunities
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+References available upon request
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

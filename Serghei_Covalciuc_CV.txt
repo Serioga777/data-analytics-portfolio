@@ -50,8 +50,10 @@ Business Intelligence:
 
 Technical Proficiency:
 • Database Management (SQLite, MySQL)
-• Version Control (Git, GitHub)
-• Web Development (HTML, CSS, JavaScript)
+• Version Control (Git, GitHub) - Codecademy Certified
+• Web Development (HTML, CSS, JavaScript) - JavaScript Certified
+• Python Programming - Codecademy Certified
+• Google Apps Script (JavaScript-based automation)
 • Problem-solving and analytical thinking
 
 ================================================================================
@@ -134,13 +136,29 @@ Self-Directed Web Development Training | 2024 - Present
 CERTIFICATIONS
 ================================================================================
 
-[Add certifications as you earn them]
+Learn Python 3 Course | Codecademy
+Completed: April 2023
+• Comprehensive Python programming fundamentals
+• Data structures, functions, and object-oriented programming
+• Practical exercises and real-world applications
 
-Recommended certifications to pursue:
+Learn JavaScript Course | Codecademy
+Completed: July 2023
+• JavaScript fundamentals and ES6+ features
+• DOM manipulation and event handling
+• Asynchronous programming and API interactions
+• Google Apps Script development capabilities
+
+Learn Git & GitHub Course | Codecademy
+Completed: January 2023
+• Version control best practices
+• Repository management and collaboration workflows
+• Branching, merging, and conflict resolution
+• Portfolio project deployment
+
+In Progress:
 • Google Data Analytics Professional Certificate (Coursera)
-• Microsoft Excel Certification
-• SQL for Data Science (Coursera/DataCamp)
-• Python for Data Science (DataCamp)
+• SQL for Data Science (DataCamp)
 
 ================================================================================
 KEY COMPETENCIES

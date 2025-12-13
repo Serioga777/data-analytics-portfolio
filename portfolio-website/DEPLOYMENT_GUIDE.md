@@ -2,6 +2,8 @@
 
 ## Quick Deploy to GitHub Pages (5 minutes)
 
+This guide documents my deployment process for this portfolio website.
+
 ### Step 1: Create Repository on GitHub
 
 1. Go to: https://github.com/new

@@ -1,6 +1,6 @@
 # 🌐 Portfolio Website - Serghei Covalciuc
 
-A modern, responsive portfolio website showcasing data analytics skills and projects.
+My personal portfolio website showcasing my data analytics skills and projects. Built from scratch to demonstrate my web development capabilities alongside my data analytics expertise.
 
 ![Portfolio Preview](https://img.shields.io/badge/Status-Live-brightgreen)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
@@ -10,7 +10,7 @@ A modern, responsive portfolio website showcasing data analytics skills and proj
 
 ## 🚀 Live Demo
 
-**View Live:** [Your GitHub Pages URL]
+**View Live:** https://serioga777.github.io/Portfolio-Website/
 
 ## ✨ Features
 
@@ -205,12 +205,15 @@ This project is open source and available under the [MIT License](LICENSE).
 - Email: sergheicovalciuc0000@gmail.com
 - Portfolio: [github.com/Serioga777/data-analytics-portfolio](https://github.com/Serioga777/data-analytics-portfolio)
 
-## 🙏 Acknowledgments
+## 💻 Development Process
 
-- **Tailwind CSS** - For the utility-first CSS framework
-- **AOS** - For smooth scroll animations
-- **Font Awesome** - For beautiful icons
-- **Google Fonts** - For Inter and Poppins fonts
+This website was built with a focus on:
+- Clean, semantic HTML5 structure
+- Modern CSS3 features and animations
+- Vanilla JavaScript for interactivity
+- Mobile-first responsive design
+- Performance optimization
+- Accessibility best practices
 
 ## 📈 Future Enhancements
 

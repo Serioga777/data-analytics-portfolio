@@ -1,0 +1,13 @@
+# Local AI Screen Assistant - Requirements
+# No API keys needed - runs completely offline!
+
+# Screen capture
+pyautogui>=0.9.54
+Pillow>=10.0.0
+pygetwindow>=0.0.9
+
+# Local AI
+ollama>=0.1.0
+
+# Optional: Better OCR
+pytesseract>=0.3.10  # Only if Tesseract is installed
